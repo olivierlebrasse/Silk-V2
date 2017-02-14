@@ -38,7 +38,7 @@ html(lang='en')
                     section.card-picture
                       img(src='images/articles/article3.jpg' alt='')
                     section.card__texts
-                      p.card__texts--categorytitle=cat4
+                      p.card__texts--categorytitle.border--round=cat4
                       a.card__texts--articletitle(href='#') Best of Minnesota 2015: Revealing what rocks
                       p.card__texts--articledescription whipped the Scotch tape from my pocket and said
                     include views/statistics.jade
@@ -49,5 +49,4 @@ html(lang='en')
 
 
         section.grid__cell(class='1/4')
-          article.news__home
-            h2.news__home--title news
+          include views/newshome.jade
