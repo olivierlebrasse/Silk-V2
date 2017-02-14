@@ -270,6 +270,10 @@ h2, h3, h4 {
 .align-right {
   text-align: right; }
 
+.logocontainer--logo {
+  width: 120px;
+  height: 40px; }
+
 .video__carousel {
   font-family: 'Lato', sans-serif;
   font-size: 13px;
