@@ -2,7 +2,7 @@
   article {
     position: relative;
     margin-bottom: 20px;
-    min-height:340px;
+    min-height: 340px;
     .statistics__container {
       position: absolute;
       bottom: 5px;
@@ -42,8 +42,8 @@
     .card__texts {
       padding: 10px 20px 0 20px;
       &--categorytitle {
-        position:absolute;
-        top:20px;
+        position: absolute;
+        top: 20px;
       }
     }
   }
