@@ -1,0 +1,60 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font: 300 1em/1.6 'open sans', sans-serif;
+  color: $main-color;
+  background:$secondary-color none repeat scroll 0 0;
+  margin: 0;
+}
+
+p {
+  font-size: 12px;
+}
+a {
+  text-decoration:none;
+  color:$main-color;
+}
+img {
+  width:100%;
+  height:auto;
+}
+h2, h3, h4 {
+  font-family: 'Lato', sans-serif;
+}
+
+.container--fluid {
+  width:100%
+}
+
+.container--980 {
+  max-width:980px;
+  margin:0 auto;
+}
+
+.border--round {
+    border: 1px solid white;
+    display: inline-flex;
+    border-radius: 10px;
+    padding: 4px 10px;
+  }
+
+.copyright {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 10px 0;
+  color: #666;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}

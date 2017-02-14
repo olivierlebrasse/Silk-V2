@@ -1,0 +1,53 @@
+
+// CARDS
+Possible Variants : 5
+
+What is common :
+For ALL -
+1) Picture
+2) Category title
+3) Card Title
+
+Variant 1 and Variant 2 -
+Have Statistics displayed at bottom of card: Liked, Comments, Published Date
+short description has font open sans size 12
+
+Variant 2 and Variant 3 -
+Category Title has a rounded border of 1 pixel and is white in color
+
+What is not common:
+Variant 1 - Size 3/4
+1) Category title at left and is colored
+2) Title of article at left and font is PlayFair
+3) Short description is 3 lines (font open sans size 12 color 9b9b9c)
+4) Picture full height at the right (50/50 in width size vs Texts)
+5) Has statistics in bottom
+
+Variant 2 - Size 1/4
+1) Category title on Top Left above picture (Rounded and border in white)
+2) Picture is Above Texts
+3) Title of article just under image (font: Lato)
+4) Description is 2 lines only (font open sans size 12px color 9b9b9c)
+5) Has statistics at bottom
+
+Variant 3 - size 1/4
+1) Category title on Top Left above picture (Rounded and border in white)
+2) Picture is 90% height under description and article title
+3) Article title is size 15px color white above picture
+4) Description is 2 line 12 px color white above picture
+5) Statistics shows Author avatar, Author name, Hours Published
+
+Variant 4 - Size 2/4
+1) Category title at left and is colored
+2) Title of article at left and font is Lato Size 24 color 333333
+3) Short description is 3 lines (font open sans size 12 color 9b9b9c)
+4) Picture full height at the right (50/50 in width size vs Texts)
+5) Has a Module for Read more + Start Slideshow Rounded 
+
+Variant 5 - size 1/4
+1) Looks like an Advertising banner
+2) All texts, buttons and picture are align center
+3) Has a background color - present one is 3078c0
+4) Displays only Title font Playfair color white
+5) Picture is under title in transparent png 
+6) Has a readmore button with drop shadow, roudned white border, background color is white transparent 15%, white text Lato size 11px 
