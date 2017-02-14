@@ -221,24 +221,36 @@
   box-sizing: border-box; }
 
 body {
-  font: 300 1em/1.6 'open sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
   color: #9b9b9c;
   background: #efefef none repeat scroll 0 0;
   margin: 0; }
 
 p {
-  font-size: 12px; }
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0 0 1.5em 0; }
 
 a {
   text-decoration: none;
-  color: #9b9b9c; }
+  color: #9b9b9c;
+  font-size: 12px; }
 
 img {
   width: 100%;
-  height: auto; }
+  height: auto;
+  display: block; }
 
 h2, h3, h4 {
-  font-family: 'Lato', sans-serif; }
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  margin: 0 0 20px 0; }
+
+article {
+  background: white;
+  margin: 0;
+  padding: 0; }
 
 .container--fluid {
   width: 100%; }
@@ -277,7 +289,8 @@ h2, h3, h4 {
   justify-content: end; }
 
 .header__top {
-  background: white; }
+  background: white;
+  margin-bottom: 20px; }
 
 .header__top--container {
   border: 1px solid #efefef; }
@@ -311,6 +324,9 @@ nav {
   nav a:last-child {
     margin: 0px; }
 
+.carousel__header {
+  margin-bottom: 20px; }
+
 .video__carousel {
   font-family: 'Lato', sans-serif;
   font-size: 13px;
@@ -327,3 +343,59 @@ nav {
     font-weight: bold;
     font-size: 11px;
     text-transform: uppercase; }
+
+.card__container article {
+  position: relative;
+  margin-bottom: 20px;
+  min-height: 340px; }
+  .card__container article .statistics__container {
+    position: absolute;
+    bottom: 5px;
+    left: 0; }
+
+.card__container .card__texts--categorytitle {
+  font-weight: bold;
+  font-size: 9px;
+  color: white; }
+
+.card__container .card__texts--articletitle {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 21px;
+  color: #333333;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 15px;
+  display: block; }
+
+.card__container .threeQuarter .card__texts {
+  padding: 76px 50px 0 20px; }
+  .card__container .threeQuarter .card__texts--categorytitle {
+    color: #e0a433; }
+  .card__container .threeQuarter .card__texts--articletitle {
+    font-size: 24px;
+    line-height: 32px;
+    font-family: "Playfair Display", serif; }
+
+.card__container .oneQuarter .card__texts {
+  padding: 10px 20px 0 20px; }
+  .card__container .oneQuarter .card__texts--categorytitle {
+    position: absolute;
+    top: 20px; }
+
+.statistics__container section {
+  font-size: 11px;
+  color: #9b9b9c;
+  font-family: 'Lato', sans-serif;
+  margin: 0; }
+
+.statistics__container .material-icons {
+  font-size: 13px;
+  line-height: 13px;
+  color: #d9d9d9; }
+
+.statistics__container span {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle;
+  height: 24px; }

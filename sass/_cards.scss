@@ -1,0 +1,50 @@
+.card__container {
+  article {
+    position: relative;
+    margin-bottom: 20px;
+    min-height:340px;
+    .statistics__container {
+      position: absolute;
+      bottom: 5px;
+      left: 0;
+    }
+  }
+  .card__texts {
+    &--categorytitle {
+      font-weight: bold;
+      font-size: 9px;
+      color: white;
+    }
+    &--articletitle {
+      font-size: 15px;
+      font-weight: bold;
+      line-height: 21px;
+      color: $tertiary-color;
+      font-family: $lato;
+      margin-bottom: 15px;
+      display: block;
+    }
+  }
+  .threeQuarter {
+    .card__texts {
+      padding: 76px 50px 0 20px;
+      &--categorytitle {
+        color: $gold;
+      }
+      &--articletitle {
+        font-size: 24px;
+        line-height: 32px;
+        font-family: $playfair;
+      }
+    }
+  }
+  .oneQuarter {
+    .card__texts {
+      padding: 10px 20px 0 20px;
+      &--categorytitle {
+        position:absolute;
+        top:20px;
+      }
+    }
+  }
+}
