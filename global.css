@@ -262,17 +262,54 @@ h2, h3, h4 {
   color: #666; }
 
 .align-center {
-  text-align: center; }
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
 
 .align-left {
-  text-align: left; }
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start; }
 
 .align-right {
-  text-align: right; }
+  -webkit-justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end; }
+
+.header__top {
+  background: white; }
+
+.header__top--container {
+  border: 1px solid #efefef; }
+  .header__top--container .grid__cell section {
+    height: 100px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
 
 .logocontainer--logo {
   width: 120px;
   height: 40px; }
+
+nav {
+  height: 60px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  nav a {
+    font-size: 11px;
+    color: #333333;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 0.5px;
+    margin-right: 5.72%; }
+  nav a:last-child {
+    margin: 0px; }
 
 .video__carousel {
   font-family: 'Lato', sans-serif;

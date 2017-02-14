@@ -1,6 +1,33 @@
+.header__top {
+  background: white;
+}
+.header__top--container {
+  border: 1px solid $secondary-color;
+  .grid__cell section {
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+}
 .logocontainer {
   &--logo {
-    width:120px;
-    height:40px;
+    width: 120px;
+    height: 40px;
+  }
+}
+
+nav {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  a {
+    font-size: 11px;
+    color: $tertiary-color;
+    font-family: $lato;
+    letter-spacing: 0.5px;
+    margin-right:5.72%;
+  }
+  a:last-child {
+    margin:0px;
   }
 }
