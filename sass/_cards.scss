@@ -1,4 +1,17 @@
 .card__container {
+  article .card__picture img {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  article:hover .card__picture img {
+    width:105%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
   article {
     position: relative;
     margin-bottom: 20px;
@@ -37,6 +50,10 @@
         font-family: $playfair;
       }
     }
+    .card__picture {
+      overflow:hidden;
+      height: 340px;
+    }
   }
   .oneQuarter {
     .card__texts {
@@ -46,5 +63,34 @@
         top: 20px;
       }
     }
+    .card__picture {
+      overflow:hidden;
+      width:230px;
+      height:185px;
+    }
   }
+  .twoQuarter {
+    .card__texts {
+      padding: 76px 0 0 20px;
+      &--categorytitle {
+        color: $blue;
+      }
+      &--articletitle {
+        font-size: 24px;
+        line-height: 32px;
+        font-family: $lato;
+      }
+    }
+    .card__picture {
+      overflow:hidden;
+      height: 340px;
+    }
+  }
+  .twoQuarter .grid--flush .grid__cell:first-child {
+    width: 54%;
+  }
+  .twoQuarter .grid--flush .grid__cell:nth-child(2) {
+    width: 46%;
+  }
+
 }

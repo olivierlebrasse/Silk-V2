@@ -1,0 +1,40 @@
+.video__container {
+  background: $tertiary-dark;
+  &--box {
+    a:hover {
+      opacity: 0.8;
+    }
+    &--link {
+      position: relative;
+      display: block;
+      .material-icons {
+        position: absolute;
+        color: white;
+        z-index: 1000;
+        padding: 2px 15px;
+        border-radius: 15px;
+        left: 40%;
+        top: 30%;
+      }
+      p {
+        font-weight: Bold;
+        font-size: 13px;
+        color: $main-light;
+      }
+      img {
+        padding-bottom: 10px;
+      }
+      span {
+        float: right;
+        color: #666;
+        font-weight: normal;
+      }
+    }
+  }
+  &--title {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+}

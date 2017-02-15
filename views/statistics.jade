@@ -1,14 +1,10 @@
 .statistics__container
-  .grid--auto
-    .grid__cell
-      section.favorites
-        i.material-icons favorite &nbsp;
-        span.html= random3
-    .grid__cell
-      section.comments
-        i.material-icons chat_bubble &nbsp;
-        span.html= random2
-    .grid__cell
-      section.published
-        i.material-icons watch_later &nbsp;
-        span.html= random1 + ' hours ago'
+  section.favorites
+    i.material-icons favorite
+    span.html= random3
+  section.comments
+    i.material-icons chat_bubble
+    span.html= random2
+  section.published
+    i.material-icons watch_later
+    span.html= random1 + ' hours ago'

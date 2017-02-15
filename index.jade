@@ -17,36 +17,31 @@ html(lang='en')
         section.grid__cell(class='3/4')
           section.grid
             section.grid__cell
-              article.threeQuarter
-                .grid.grid--flush
-                  .grid__cell(class='1/2')
-                    section.card__texts
-                      p.card__texts--categorytitle=cat6
-                      a.card__texts--articletitle(href='#') The 2015 Best-Dressed List: How Kate Middleton
-                      p.card__texts--articledescription Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
-                      include views/statistics.jade
-                  .grid__cell(class='1/2')
-                    section.card__picture
-                      img(src='images/articles/article1.jpg' alt='' width='365' height='340')
+              include views/articles/article1.jade
             section.grid__cell
               section.grid
                 .grid__cell(class='1/3')
-                  article.oneQuarter card 2
+                  include views/articles/article2.jade
 
                 .grid__cell(class='1/3')
-                  article.oneQuarter
-                    section.card-picture
-                      img(src='images/articles/article3.jpg' alt='')
-                    section.card__texts
-                      p.card__texts--categorytitle.border--round=cat4
-                      a.card__texts--articletitle(href='#') Best of Minnesota 2015: Revealing what rocks
-                      p.card__texts--articledescription whipped the Scotch tape from my pocket and said
-                    include views/statistics.jade
+                  include views/articles/article3.jade
 
                 .grid__cell(class='1/3')
-                  article.oneQuarter card 4
-
-
+                  include views/articles/article4.jade
 
         section.grid__cell(class='1/4')
           include views/newshome.jade
+
+    section.card__container.container--980
+      section.grid
+        section.grid__cell(class='2/4')
+          include views/articles/article5.jade
+        section.grid__cell(class='1/4')
+          include views/articles/article6.jade
+        section.grid__cell(class='1/4')
+          include views/articles/article7.jade
+
+    section.video__container.container--fluid
+      section.container--980
+        include views/videoslides.jade
+
