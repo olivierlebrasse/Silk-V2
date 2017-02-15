@@ -269,7 +269,8 @@ article {
   display: -ms-inline-flexbox;
   display: inline-flex;
   border-radius: 10px;
-  padding: 0 12px; }
+  padding: 0 12px;
+  letter-spacing: 0.8px; }
 
 .copyright {
   max-width: 980px;
@@ -463,6 +464,19 @@ nav {
   width: 230px;
   height: 185px; }
 
+.card__container .variantTwo .card__texts--articletitle {
+  position: absolute;
+  top: 180px;
+  color: white; }
+
+.card__container .variantTwo .card__texts--articledescription {
+  position: absolute;
+  top: 225px;
+  color: white; }
+
+.card__container .variantTwo .card__picture {
+  height: 290px; }
+
 .card__container .twoQuarter .card__texts {
   padding: 76px 0 0 20px; }
   .card__container .twoQuarter .card__texts--categorytitle {
@@ -475,6 +489,45 @@ nav {
 .card__container .twoQuarter .card__picture {
   overflow: hidden;
   height: 340px; }
+
+.card__container .variantBlue {
+  background: #3078c0;
+  text-align: center; }
+  .card__container .variantBlue .card__texts {
+    padding: 10px 20px; }
+    .card__container .variantBlue .card__texts--categorytitle {
+      position: initial;
+      display: block;
+      text-align: center; }
+    .card__container .variantBlue .card__texts--articletitle {
+      color: white;
+      font-family: "Playfair Display", serif;
+      font-size: 20px;
+      line-height: 27px; }
+    .card__container .variantBlue .card__texts--readmore {
+      font-size: 11px;
+      font-weight: bold;
+      border: 0px;
+      border-top: 1px solid #94b9dd;
+      text-transform: uppercase;
+      color: White;
+      -webkit-border-radius: 28;
+      -moz-border-radius: 28;
+      border-radius: 28px;
+      -webkit-box-shadow: 2px 3px 7px #2166ac;
+      -moz-box-shadow: 2px 3px 7px #2166ac;
+      box-shadow: 2px 3px 7px #2166ac;
+      background: #4c8ac7;
+      padding: 10px 30px;
+      text-decoration: none;
+      cursor: pointer; }
+    .card__container .variantBlue .card__texts--readmore:hover {
+      background: #E15329;
+      border-top: 1px solid #F2896D; }
+    .card__container .variantBlue .card__texts img {
+      width: auto;
+      margin: 0 auto;
+      margin-bottom: 20px; }
 
 .card__container .twoQuarter .grid--flush .grid__cell:first-child {
   width: 54%; }
@@ -507,3 +560,22 @@ nav {
     padding-right: 5px; }
   .statistics__container span {
     color: #9b9b9c; }
+
+.authordetails {
+  padding: 0 20px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: space-around;
+  -ms-flex-line-pack: distribute;
+  align-content: space-around; }
+  .authordetails .authorportrait {
+    width: auto;
+    margin-right: 5px; }
+  .authordetails .authordetails--texts p {
+    font-size: 10px;
+    line-height: 14px;
+    margin: 0; }
+  .authordetails .authordetails--texts-name {
+    font-weight: bold;
+    color: #333333; }

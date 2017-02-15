@@ -1,0 +1,20 @@
+.authordetails {
+  padding: 0 20px;
+  display:flex;
+  align-content: space-around;
+  .authorportrait {
+    width:auto;
+    margin-right: 5px;
+  }
+  .authordetails--texts {
+    p {
+      font-size: 10px;
+      line-height: 14px;
+      margin: 0;
+    }
+    &-name {
+      font-weight: bold;
+      color: $tertiary-color;
+    }
+  }
+}
