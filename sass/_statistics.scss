@@ -1,27 +1,26 @@
 .statistics__container {
-  padding:10px 20px;
-  width:100%;
-  display:flex;
-    section {
+  padding: 10px 20px;
+  width: 100%;
+  display: flex;
+  section {
     font-size: 11px;
-    line-height:13px;
+    line-height: 13px;
     color: $main-color;
     font-family: 'Lato', sans-serif;
-    margin-right:10px;
-    display:flex;
+    margin-right: 10px;
+    display: flex;
     align-content: center;
-    }
-
-    .material-icons {
-        font-size: 13px;
-        line-height: 13px;
-        color: $main-light;
-        padding-right:5px;
-    }
-    span {
-      color: $main-color;
-    }
-    span:hover {
-      color: $tertiary-color;
-    }
+  }
+  .material-icons {
+    font-size: 13px;
+    line-height: 13px;
+    color: $main-light;
+    padding-right: 5px;
+  }
+  span {
+    color: $main-color;
+  }
+  span:hover {
+    color: $tertiary-color;
+  }
 }

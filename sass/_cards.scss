@@ -1,8 +1,8 @@
 .card__container {
-  article {
+  .card__deck {
     position: relative;
     margin-bottom: 20px;
-    min-height: 340px;
+    height: 340px;
     .statistics__container {
       position: absolute;
       bottom: 5px;
@@ -50,12 +50,12 @@
   .variantTwo {
     .card__texts {
       &--articletitle {
-      position:absolute;
-      top: 180px;
-      color: white;
+        position: absolute;
+        top: 180px;
+        color: white;
       }
       &--articledescription {
-        position:absolute;
+        position: absolute;
         top: 225px;
         color: white;
       }
@@ -122,12 +122,10 @@
       }
     }
   }
-
-
   .twoQuarter .grid--flush .grid__cell:first-child {
-    width: 54%;
+    width: 258px;
   }
   .twoQuarter .grid--flush .grid__cell:nth-child(2) {
-    width: 46%;
+    width: 222px;
   }
 }

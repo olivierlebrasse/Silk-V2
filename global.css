@@ -370,52 +370,11 @@ nav {
     font-size: 11px;
     text-transform: uppercase; }
 
-.news__home--title {
-  text-transform: uppercase;
-  font-size: 11px;
-  color: #333333;
-  padding: 10px 20px;
-  border-bottom: 1px solid #efefef;
-  margin: 0px; }
-
-.news__home--content {
-  padding: 20px 20px; }
-
-.news__home .news__content {
-  padding-top: 10px;
-  border-bottom: 1px solid #efefef;
-  font-family: "Lato", sans-serif;
-  min-height: 0;
-  margin: 0; }
-  .news__home .news__content--time {
-    font-size: 9px; }
-  .news__home .news__content--title {
-    font-size: 13px;
-    font-weight: bold;
-    color: #333333;
-    margin: 5px 0 1.3em;
-    display: block; }
-
-.news__home .btn--allnews {
-  padding-top: 10px;
-  display: block;
-  width: 100%;
-  text-align: center;
-  background: #333333;
-  color: white;
-  font-size: 11px;
-  font-weight: bold;
-  text-transform: uppercase;
-  height: 35px; }
-
-.news__home .btn--allnews:hover {
-  background: #9b9b9c; }
-
-.card__container article {
+.card__container .card__deck {
   position: relative;
   margin-bottom: 20px;
-  min-height: 340px; }
-  .card__container article .statistics__container {
+  height: 340px; }
+  .card__container .card__deck .statistics__container {
     position: absolute;
     bottom: 5px;
     left: 0; }
@@ -511,10 +470,50 @@ nav {
       margin-bottom: 20px; }
 
 .card__container .twoQuarter .grid--flush .grid__cell:first-child {
-  width: 54%; }
+  width: 258px; }
 
 .card__container .twoQuarter .grid--flush .grid__cell:nth-child(2) {
-  width: 46%; }
+  width: 222px; }
+
+.news__home {
+  min-height: 700px;
+  position: relative; }
+  .news__home--title {
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #333333;
+    padding: 10px 20px;
+    border-bottom: 1px solid #efefef;
+    margin: 0px; }
+  .news__home--content {
+    padding: 20px 20px; }
+  .news__home .news__content {
+    padding-top: 10px;
+    border-bottom: 1px solid #efefef;
+    font-family: "Lato", sans-serif;
+    min-height: 0;
+    margin: 0; }
+    .news__home .news__content--time {
+      font-size: 9px; }
+    .news__home .news__content--title {
+      font-size: 13px;
+      font-weight: bold;
+      color: #333333;
+      margin: 8px 0 1.3em;
+      display: block; }
+  .news__home .btn--allnews {
+    position: absolute;
+    bottom: 0;
+    padding-top: 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: #333333;
+    color: white;
+    font-weight: bold;
+    height: 40px; }
+  .news__home .btn--allnews:hover {
+    background: #9b9b9c; }
 
 .statistics__container {
   padding: 10px 20px;
