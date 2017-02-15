@@ -560,6 +560,8 @@ nav {
     padding-right: 5px; }
   .statistics__container span {
     color: #9b9b9c; }
+  .statistics__container span:hover {
+    color: #333333; }
 
 .authordetails {
   padding: 0 20px;
