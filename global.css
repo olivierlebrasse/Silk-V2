@@ -344,7 +344,8 @@ nav {
     color: #3078c0; }
 
 .logincontainer--loginbtn:hover {
-  background: #d9d9d9; }
+  background: #9b9b9c;
+  color: white; }
 
 .logincontainer--loginbtn {
   color: #666;
@@ -639,3 +640,31 @@ nav {
 
 .weatherapp--texts-location {
   font-weight: bold; }
+
+.footer__content--disclaimer img {
+  width: auto;
+  margin-bottom: 30px; }
+
+.footer__content--disclaimer-texts {
+  line-height: 22px;
+  max-width: 80%; }
+
+.footer__content--title {
+  font-size: 11px;
+  font-weight: bold;
+  color: #333333; }
+
+.footer__content--links {
+  display: block;
+  line-height: 26px; }
+
+.footer__content--lastsection {
+  padding-left: 20%; }
+  .footer__content--lastsection p {
+    margin: 0;
+    line-height: 24px; }
+  .footer__content--lastsection a {
+    color: #3078c0; }
+
+.footer__content .footer__sectors {
+  padding-left: 25%; }

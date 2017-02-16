@@ -37,7 +37,8 @@ nav {
 }
 .logincontainer {
   &--loginbtn:hover {
-    background: $main-light;
+    background: $main-color;
+    color: white;
   }
   &--loginbtn {
     color: #666;
