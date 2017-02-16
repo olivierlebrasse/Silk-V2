@@ -83,6 +83,8 @@
   .twoQuarter {
     .card__texts {
       padding: 76px 0 0 20px;
+      max-width: 260px;
+      position: absolute;
       &--categorytitle {
         color: $blue;
       }
@@ -94,6 +96,11 @@
     }
     .card__picture {
       background: white;
+      position: absolute;
+      right: 0;
+      img {
+        width: auto;
+      }
     }
   }
   .variantBlue {
@@ -140,12 +147,7 @@
       }
     }
   }
-  .twoQuarter .grid--flush .grid__cell:first-child {
-    width: 258px;
-  }
-  .twoQuarter .grid--flush .grid__cell:nth-child(2) {
-    width: 222px;
-  }
+
 }
 
 .dual--button {

@@ -462,7 +462,9 @@ nav {
   height: 290px; }
 
 .card__container .twoQuarter .card__texts {
-  padding: 76px 0 0 20px; }
+  padding: 76px 0 0 20px;
+  max-width: 260px;
+  position: absolute; }
   .card__container .twoQuarter .card__texts--categorytitle {
     color: #3078c0; }
   .card__container .twoQuarter .card__texts--articletitle {
@@ -471,7 +473,11 @@ nav {
     font-family: "Lato", sans-serif; }
 
 .card__container .twoQuarter .card__picture {
-  background: white; }
+  background: white;
+  position: absolute;
+  right: 0; }
+  .card__container .twoQuarter .card__picture img {
+    width: auto; }
 
 .card__container .variantBlue {
   background: #3078c0;
@@ -510,12 +516,6 @@ nav {
       width: auto;
       margin: 0 auto;
       margin-bottom: 20px; }
-
-.card__container .twoQuarter .grid--flush .grid__cell:first-child {
-  width: 258px; }
-
-.card__container .twoQuarter .grid--flush .grid__cell:nth-child(2) {
-  width: 222px; }
 
 .dual--button {
   display: -webkit-flex;
