@@ -31,6 +31,9 @@ nav {
   a:last-child {
     margin:0px;
   }
+  a:hover {
+    color: $blue;
+  }
 }
 .logincontainer {
   &--loginbtn:hover {

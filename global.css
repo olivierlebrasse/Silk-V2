@@ -340,6 +340,8 @@ nav {
     margin-right: 5.72%; }
   nav a:last-child {
     margin: 0px; }
+  nav a:hover {
+    color: #3078c0; }
 
 .logincontainer--loginbtn:hover {
   background: #d9d9d9; }
@@ -565,6 +567,8 @@ nav {
       color: #333333;
       margin: 8px 0 1.3em;
       display: block; }
+    .news__home .news__content--title:hover {
+      color: #e0a433; }
   .news__home .btn--allnews {
     position: absolute;
     bottom: 0;

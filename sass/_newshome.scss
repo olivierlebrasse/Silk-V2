@@ -28,6 +28,9 @@
         margin: 8px 0 1.3em;
         display: block;
       }
+      &--title:hover {
+        color: $gold;
+      }
     }
     .btn--allnews {
       position: absolute;
