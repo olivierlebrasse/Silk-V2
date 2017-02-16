@@ -2,13 +2,13 @@ section.header__top--container
   section.grid.grid--flush.container--980
     section(class='1/3 grid__cell')
       section.weathercontainer.align-left
-        p weather comp
+        include weatherapp.jade
     section(class='1/3 grid__cell')
       section.logocontainer.align-center
         img.logocontainer--logo(src='images/logo.svg', height='40' width='120')
     section(class='1/3 grid__cell')
       section.logincontainer.align-right
-        a.btn.login(href='#') login
+        button.logincontainer--loginbtn(href='#') LOG IN
 
 section.container--980
   section.grid

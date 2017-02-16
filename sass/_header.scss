@@ -32,3 +32,25 @@ nav {
     margin:0px;
   }
 }
+.logincontainer {
+  &--loginbtn:hover {
+    background: $main-light;
+  }
+  &--loginbtn {
+    color: #666;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid $main-light;
+    border-radius: 20px;
+    font-family: $lato;
+    font-size: 11px;
+    width: 120px;
+    letter-spacing: 0.5px;
+    &:before {
+      content: 'person';
+      padding-right: 10px;
+      font-family: $material;
+      letter-spacing: 0;
+    }
+  }
+}

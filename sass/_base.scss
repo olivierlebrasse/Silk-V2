@@ -37,7 +37,11 @@ h4 {
   font-size: 24px;
   margin: 0 0 20px 0;
 }
-
+button {
+  cursor: pointer;
+  background: none;
+  border: 0;
+}
 article {
   background: white;
   margin: 0;

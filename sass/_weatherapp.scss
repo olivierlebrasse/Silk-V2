@@ -1,0 +1,12 @@
+.weatherapp {
+  p {
+    margin: 0;
+    font-size: 11px;
+  }
+  &--picture {
+    margin-right: 10px;
+  }
+  &--texts-location {
+    font-weight:bold;
+  }
+}

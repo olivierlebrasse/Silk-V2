@@ -1,4 +1,11 @@
 .card__container {
+  .card__deck:hover .card__picture img {
+    opacity: 0.5;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
   .card__deck {
     position: relative;
     margin-bottom: 20px;
@@ -7,6 +14,15 @@
       position: absolute;
       bottom: 5px;
       left: 0;
+    }
+    .card__picture {
+      background: black;
+      & img {
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+      }
     }
   }
   .card__texts {
@@ -76,6 +92,9 @@
         font-family: $lato;
       }
     }
+    .card__picture {
+      background: white;
+    }
   }
   .variantBlue {
     background: $blue;
@@ -109,7 +128,6 @@
         background: #4c8ac7;
         padding: 10px 30px;
         text-decoration: none;
-        cursor: pointer;
       }
       &--readmore:hover {
         background: #E15329;
@@ -127,5 +145,30 @@
   }
   .twoQuarter .grid--flush .grid__cell:nth-child(2) {
     width: 222px;
+  }
+}
+
+.dual--button {
+  display: flex;
+  align-content: start;
+  button {
+    border-style: solid;
+    border-color: $main-light;
+    background: white;
+    padding: 8px 10px;
+    font-size: 10px;
+    font-family: $lato;
+    font-weight: bold;
+  }
+  button:hover {
+    background: $main-light;
+  }
+  &-readmore {
+    border-width: 1px 0 1px 1px;
+    border-radius: 20px 0 0 20px;
+  }
+  &-slideshow {
+    border-width: 1px;
+    border-radius: 0 20px 20px 0;
   }
 }
