@@ -301,9 +301,9 @@ article {
   justify-content: start; }
 
 .align-right {
-  -webkit-justify-content: end;
+  -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
-  justify-content: end; }
+  justify-content: flex-end; }
 
 .header__top {
   background: white;
